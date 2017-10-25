@@ -13,3 +13,5 @@ extensions:
     output:
       html: build/code_coverage
       xml: build/code_coverage
+    whitelist:
+      - .
