@@ -1,0 +1,25 @@
+{
+  "name": "landerstraeten/infection-poc",
+  "description": "infection poc",
+  "authors": [
+    {
+      "name": "Lander Vanderstraeten",
+      "homepage": "https://landerstraeten.be"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^4.1",
+    "infection/infection": "^0.6.0",
+    "leanphp/phpspec-code-coverage": "^4.0"
+  }
+}
