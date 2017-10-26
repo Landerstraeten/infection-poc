@@ -3,6 +3,10 @@
     "source": {
         "directories": [
             "."
+        ],
+        "exclude": [
+            "spec",
+            "vendor"
         ]
     },
     "logs": {

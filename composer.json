@@ -19,7 +19,7 @@
   },
   "require-dev": {
     "phpspec/phpspec": "^4.1",
-    "infection/infection": "^0.6.0",
+    "infection/infection": "dev-master",
     "leanphp/phpspec-code-coverage": "^4.0"
   }
 }

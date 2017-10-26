@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a1bcc58649147893d2ab80972504cfe",
+    "content-hash": "c8fc5c3fa8ef65bf612b3b24f08fa90e",
     "packages": [],
     "packages-dev": [
         {
@@ -63,16 +63,16 @@
         },
         {
             "name": "infection/infection",
-            "version": "0.6.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "df190cba01059b7b4c7a61aa7c81cce0e1e7de2b"
+                "reference": "0fb48afd2fd80d740e535939a8073e4909e97306"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/df190cba01059b7b4c7a61aa7c81cce0e1e7de2b",
-                "reference": "df190cba01059b7b4c7a61aa7c81cce0e1e7de2b",
+                "url": "https://api.github.com/repos/infection/infection/zipball/0fb48afd2fd80d740e535939a8073e4909e97306",
+                "reference": "0fb48afd2fd80d740e535939a8073e4909e97306",
                 "shasum": ""
             },
             "require": {
@@ -119,7 +119,7 @@
                 "testing",
                 "unit testing"
             ],
-            "time": "2017-10-09T20:40:39+00:00"
+            "time": "2017-10-25T20:12:24+00:00"
         },
         {
             "name": "leanphp/phpspec-code-coverage",
@@ -1892,7 +1892,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "infection/infection": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
