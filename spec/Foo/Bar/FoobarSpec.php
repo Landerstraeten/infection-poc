@@ -11,9 +11,4 @@ class FoobarSpec extends ObjectBehavior
     {
         $this->shouldHaveType(Foobar::class);
     }
-
-    function it_should_say_foobar()
-    {
-        $this->foobar()->shouldBe('foobar');
-    }
 }
