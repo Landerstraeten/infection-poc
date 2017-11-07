@@ -2,13 +2,24 @@
 
 namespace spec\Foo\Bar;
 
-use Foo\Bar\Foobar;
 use PhpSpec\ObjectBehavior;
 
 class FoobarSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    function it_should_not_increment_nor_decrement_zero()
     {
-        $this->shouldHaveType(Foobar::class);
+        $this->foobar(0)->shouldBe(0);
+    }
+
+    function it_should_increment_a_positive_number()
+    {
+        $this->foobar(5)->shouldBe(6);
+        $this->foobar(1)->shouldBe(2);
+    }
+
+    function it_should_decrement_a_negative_number()
+    {
+        $this->foobar(-10)->shouldBe(-11);
+        $this->foobar(-1)->shouldBe(-2);
     }
 }

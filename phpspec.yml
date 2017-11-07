@@ -1,17 +1,11 @@
 formatter.name: pretty
 
-code_generation: false
-
-stop_on_failure: false
-
 extensions:
   LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension:
     format:
-      - html
       - xml
       - text
     output:
-      html: build/code_coverage
       xml: build/code_coverage
     whitelist:
       - .
