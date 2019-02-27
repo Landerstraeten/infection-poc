@@ -3,9 +3,9 @@ formatter.name: pretty
 extensions:
   LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension:
     format:
-      - xml
+      - html
       - text
     output:
-      xml: build/code_coverage
+      html: build/code_coverage
     whitelist:
       - .
