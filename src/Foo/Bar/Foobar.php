@@ -18,4 +18,8 @@ class Foobar
 
         return $number - 1;
     }
+
+    // switch statement 15 with 11 to see a false positive result (mutation)
+
+    // make number nullable to see a false positive result (code coverage)
 }
