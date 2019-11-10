@@ -16,10 +16,11 @@
     "bin-dir": "bin"
   },
   "require": {
+    "php": "^7.3"
   },
   "require-dev": {
-    "phpspec/phpspec": "^4.1",
+    "phpspec/phpspec": "^5.1",
     "infection/infection": "dev-master",
-    "leanphp/phpspec-code-coverage": "^4.0"
+    "friends-of-phpspec/phpspec-code-coverage": "^4.3"
   }
 }
